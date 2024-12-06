@@ -455,7 +455,7 @@ sudo systemctl enable --now gdm.service
 yay --editmenu --save
 
 # Cleanup cache
-yay -Scc --noconfirm
+yay -Scc
 
 # Enable fractional scaling
 gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
